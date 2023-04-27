@@ -9,6 +9,11 @@ async function renderJoke() {
     jokeSetupParagraph.innerHTML = data.setup; 
     jokePunchlineParagraph.innerHTML = data.punchline;
 }
+// Data retrieval via destructuring 
+// const { setup, punchline } = data; 
+// jokeSetupParagraph.innerHTML = setup; 
+// jokePunchlineParagraph.innerHTML = punchline;
+
 function resetJoke() {
     jokeSetupParagraph.innerHTML = ""; 
     jokePunchlineParagraph.innerHTML = "";
